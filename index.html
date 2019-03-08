@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+        <script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/jquery-1.11.3.js"></script>
+		<link rel="stylesheet" href="css/quanju.css">
+		<link rel="stylesheet" href="css/shouye.css">
+		<script src="js/jquery-1.10.1.js" type="text/javascript"></script>
+		<script src="js/unslider.min.js"></script>
+		
+	</head>
+	<body>
+		<header>
+			<div class="header1">
+				<ul id="header-left">
+					<li class="one">商城首页</li>
+					<li>hi~欢迎来到Z商城，请</li>
+					<li class="two"><a href="#" class="three">登录</a></li>
+					<li><a href="#" class="four">免费注册</a></li>
+				</ul>
+				<ul id="header-right">
+					<li><a href="">我的订单</a></li>
+					<li id="maijia">
+						<a href="#">买家中心&nbsp;<span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
+						<ul id="erji">
+							<li><a href="#">关注的店铺&nbsp;&nbsp;30</a></li>
+							<li><a href="#">关注的商品&nbsp;&nbsp;48</a></li>
+						</ul>
+					</li>
+					<li><a href="">购物车0件</a></li>
+					<li><a href="">帮助中心</a></li>
+					<li>|</li>
+					<li id="mobile">
+						<a href="">手机商城&nbsp;<span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
+						<a href=""><img src="img/shop_wechat.png" alt=""></a>
+					</li>
+					<li><a href="">中关村在线</a></li>
+					<li><a href="">招商合作</a></li>
+					<li id="phone">
+						<a href="">联系客服&nbsp;<span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
+						<span id="number">400-688-1999</span>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<script>
+			$('#maijia').mouseenter(function(){
+				$('#erji').css('display' , 'block')
+			})
+			$('#maijia').mouseleave(function(){
+				$('#erji').css('display' , 'none')
+			})
+			$('#mobile').mouseenter(function(){
+				$('#mobile img').css('display' , 'block')
+			})
+			$('#mobile').mouseleave(function(){
+				$('#mobile img').css('display' , 'none')
+			})
+			$('#phone').mouseenter(function(){
+				$('#phone #number').css('display' , 'block')
+			})
+			$('#phone').mouseleave(function(){
+				$('#phone #number').css('display' , 'none')
+			})
+		</script>
+		<div class="search1">
+			<div class="logo">
+				<img src="img/zol-tuan.png" alt="">
+				
+				<div class="quick-entry">
+					<a class="order" href=""><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>我的订单</a>
+					<a class="coupon" href=""><span class="glyphicon glyphicon-yen" aria-hidden="true"></span>我的优惠券</a>
+					<a class="cart" href=""><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>购物车</a>
+				</div>
+				
+				<form action="">
+					<input id="search-text" type="text" value="DIY限时抢">
+					<input id="search-btn" type="button" value="搜索">
+					<ul class="tuangou">
+						<li>华为手机</li>
+						<li>超极本降1400元</li>
+						<li>畅玩7X立省700元</li>
+						<li>DIY主机降1000元</li>
+						<li>华为手机</li>
+					</ul>
+				</form>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<nav>
+			<div class="wrapper">
+				<div id="fenlei"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>&nbsp;&nbsp;全部分类</div>
+				<ul class="heng">
+					<li><a href="">首页</a></li>
+					<li><a href="">团购</a></li>
+					<li><a href="">电子竞技</a></li>
+					<li><a href="">本地优选</a></li>
+					<li><a href="">家电优选</a></li>
+				</ul>
+				<ul id="menu">
+					<li><a href=""><span class="glyphicon glyphicon-hdd"></span>手机</a></li>
+					<li><a href=""><span class="glyphicon glyphicon-phone"></span>电脑</a></li>
+					<li><a href=""><span class="glyphicon glyphicon-pencil"></span>DIY</a></li>
+					<li><a href=""><span class="glyphicon glyphicon-headphones"></span>数码</a></li>
+					<li><a href=""><span class="glyphicon glyphicon-scissors"></span>外设</a></li>
+					<li><a href=""><span class="glyphicon glyphicon-apple"></span>智能</a></li>
+					<li><a href=""><span class="glyphicon glyphicon-briefcase"></span>其他</a></li>
+				</ul>
+			</div>
+		</nav>
+		<script>
+			$('#fenlei').mouseover(function(){
+				$('#menu').css('display','block')
+			})
+			$('.wrapper').mouseleave(function(){
+				$('#menu').css('display','none')
+			})
+		</script>
+		
+		<div class="banner-box">
+			<div class="banner" id="b04">
+				<ul>
+					<li><img src="img/ChMkJ1xhEMOIen9uAAEVqKYcyZYAAu1xQJB-eIAARXA045.jpg" alt="" width="900px" height="300px"></li>
+					<li><img src="img/ChMkJ1xtFryIG0wOAAE1_jTNhLIAAvAzwIuE-0AATYW069.jpg" alt="" width="900px" height="300px"></li>
+					<li><img src="img/ChMkJlvifsmIREQNAAEMILjrVmwAAtAeQEfL84AAQw4490.jpg" alt="" width="900px" height="300px"></li>
+				</ul>
+				<a href="javascript:void(0)" class="unslider-arrow04 prev"><img class="arrow" id="al" src="img/prev-btn.png" alt="prev" ></a>
+				<a href="javascript:void(0)" class="unslider-arrow04 next"><img class="arrow" id="ar" src="img/next-btn.png" alt="next" ></a>
+			</div>
+			<ul class="banner-list">
+				<li><a href=""><img src="img/ChMkJ1s_Ho2Ib-69AAAxjRIfZs0AApgzAMdUeUAADGl301.jpg" alt=""></a></li>
+				<li><a href=""><img src="img/ChMkJlxk0oGILhxJAAAtF9DfJ_AAAu4uQG34AYAAC0v324.jpg" alt=""></a></li>
+			</ul>
+		</div>
+		
+		<script>
+			$(document).ready(function(e) {
+				var unslider04 = $('#b04').unslider({
+					dots: true
+				}),
+				data04 = unslider04.data('unslider');
+				 
+				$('.unslider-arrow04').click(function() {
+					var fn = this.className.split(' ')[1];
+					data04[fn]();
+				});
+			});
+		</script>
+		<img class="pic-li" src="img/1.jpg" alt="">
+		<section>
+			<div class="jingpin">
+				<div class="jingpin-left">精品团</div>
+				<div class="jingpin-right">
+					<button id="leftbtn">&lt;</button>
+					<button id="rightbtn">&gt;</button>
+				</div>
+			</div>
+			<div class="jingpin2">
+				<ul id="ul1">
+					<li>
+						<img src="img/ChMkJ1vhNWOIbJkZAAE0_CI8VIwAAs_KwF2ckUAATUU772.jpg" alt="">
+						<div class="one">玛莎拉蒂10元优惠券</div>
+						<div class="two">￥22227992</div>
+						<div class="three">张明凯数码专营店</div>
+						<div class="four">剩余：天 时 分 秒</div>
+						<div class="five">立省10元</div>
+						<button class="six">立即抢购</button>
+					</li>
+					<li>
+						<img src="img/ChMkJlqwtISIFyPzAAFC-kdAOPIAAm4AQHm2ywAAUMS414.jpg" alt="">
+						<div class="one">【顺丰包邮】vivo NEX</div>
+						<div class="two">￥2799</div>
+						<div class="three">张明凯数码专营店</div>
+						<div class="four">剩余：天 时 分 秒</div>
+						<div class="five">立省250元</div>
+						<button class="six">立即抢购</button>
+					</li>
+					<li>
+						<img src="img/ChMkJlvKrQqIUYvCAAE_gQV9QUMAAsmkANXJE0AAT-Z960.jpg" alt="">
+						<div class="one">【顺丰包邮】vivo NEX 零界全面屏AI</div>
+						<div class="two">￥3799</div>
+						<div class="three">张明凯数码专营店</div>
+						<div class="four">剩余：天 时 分 秒</div>
+						<div class="five">立省10元</div>
+						<button class="six">立即抢购</button>
+					</li>
+					<li>
+						<img src="img/ChMkJ1vZaEmIEX6iAAIt9pjL7tcAAs3egNpfcYAAi4O262.jpg" alt="">
+						<div class="one">【顺丰包邮】vivo NEX 零界全面屏AI</div>
+						<div class="two">￥8799</div>
+						<div class="three">张明凯数码专营店</div>
+						<div class="four">剩余：天 时 分 秒</div>
+						<div class="five">立省10元</div>
+						<button class="six">立即抢购</button>
+					</li>
+					<li>
+						<img src="img/ChMkJlqwtISIFyPzAAFC-kdAOPIAAm4AQHm2ywAAUMS414.jpg" alt="">
+						<div class="one">【顺丰包邮】vivo NEX 零界全面屏AI</div>
+						<div class="two">￥5799</div>
+						<div class="three">张明凯数码专营店</div>
+						<div class="four">剩余：天 时 分 秒</div>
+						<div class="five">立省10元</div>
+						<button class="six">立即抢购</button>
+					</li>
+					<li>
+						<img src="img/ChMkJ1vhNWOIbJkZAAE0_CI8VIwAAs_KwF2ckUAATUU772.jpg" alt="">
+						<div class="one">彩蛋</div>
+						<div class="two">￥3799</div>
+						<div class="three">张明凯数码专营店</div>
+						<div class="four">剩余：天 时 分 秒</div>
+						<div class="five">立省10元</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<script>
+			var oUl = document.querySelector('#ul1')
+			$('#leftbtn').click(function(){
+				$('#ul1').animate({left : '300px'},function(){
+					if(oUl.offsetLeft <= 0){
+						$('#ul1').css('left',600)
+					}
+				})
+			});
+
+			$('#rightbtn').click(function(){
+				$('#ul1').animate({left : '-300px'},function(){
+					if(oUl.offsetLeft <= -600){
+						$('#ul1').css('left',0)
+					}
+				})
+			})
+		</script>
+	</body>
+</html>
