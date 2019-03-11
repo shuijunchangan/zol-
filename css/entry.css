@@ -1,0 +1,206 @@
+header{
+	width:990px;
+	height:94px;
+	line-height: 94px;
+	margin:50px auto 20px;
+}
+.header-left{
+	float: left;
+}
+.header-left li:nth-child(1){
+	margin-right:12px;
+}
+.header-left li:nth-child(2){
+	font-size: 14px;
+	color:#666666;
+	border-left:2px solid #e6e6e6;
+	height:45px;
+	line-height:45px;
+	margin-top:30px;
+	padding-left:12px;
+}
+.header-right{
+	float: right;
+}
+header ul li{
+	float:left;
+}
+.header-right li:nth-child(1){
+	font-size:13px;
+	color:#333333;
+}
+.header-right li:nth-child(2) a{
+	display: inline-block;
+	font-size:14px;
+	color:red;
+	width:80px;
+	height:25px;
+}
+section{
+	margin:0 auto;
+	width:990px;
+	height:360px;
+	border:1px solid #e6e6e6;
+}
+section .pic{
+	float: left;
+}
+.right{
+	width:465px;
+	float:right;
+}
+.right1{
+	width:290px;
+	margin:20px auto 0;
+	position: relative;
+}
+.xuanxiang{
+	cursor:pointer;
+	height:36px;
+	margin-bottom: 10px;
+}
+.xuanxiang span{
+	float:left;
+	width:145px;
+	height:36px;
+	line-height:36px;
+	font-size:18px;
+	color:#333333;
+}
+.xuanxiang1{
+	border-bottom: 2px solid red;
+}
+.xuanxiang2{
+	border-bottom: 2px solid #e6e6e6;
+}
+.input1 input{
+	width:290px;
+	height:38px;
+	border:1px solid #cccccc;
+	text-align: left;
+	font-size: 14px;
+	color:#767676;
+	margin:0 0 10px 0;
+}
+.input2 input{
+	width:290px;
+	height:38px;
+	border:1px solid #cccccc;
+	text-align: left;
+	font-size: 14px;
+	color:#767676;
+}
+.dongtai{
+	height:45px;
+	line-height: 45px;
+	font-size: 12px;
+	color:#333333;
+}
+.dongtai li:nth-child(1){
+	float:left;
+}
+.dongtai li:nth-child(2){
+	float:right;
+}
+.dongtai span{
+	color:red;
+	font-size: 18px;
+	margin-right: 8px;
+}
+.tishi{
+	width:288px;
+	height:20px;
+	border:1px solid #ff9999;
+	background: #fff2f2;
+	margin:5px 0;
+	display: none;
+}
+.btn1{
+	width:290px;
+	height:40px;
+	line-height: 40px;
+	background: red;
+	color:white;
+	font-size:14px;
+}
+.hezuo{
+	height:50px;
+	line-height: 50px;
+	color:#666666;
+	font-size: 12px;
+}
+.pic1{
+	margin-left:14px;
+}
+.pic1 li{
+	width:38px;
+	height:38px;
+	float: left;
+	margin:0 7px;
+}
+.pic1 li:nth-child(1){
+	background: url(../img/denglu/bgs2.png) no-repeat ;
+}
+.pic1 li:nth-child(1):hover{
+	background: url(../img/denglu/bgs2.png) no-repeat 0px -38px;
+}
+.pic1 li:nth-child(2){
+	background: url(../img/denglu/bg.png) no-repeat 0px -82px;
+}
+.pic1 li:nth-child(2):hover{
+	background: url(../img/denglu/bg.png) no-repeat 0px -121px;
+}
+.pic1 li:nth-child(3){
+	background: url(../img/denglu/bg.png) no-repeat -38px -82px;
+}
+.pic1 li:nth-child(3):hover{
+	background: url(../img/denglu/bg.png) no-repeat -39px -121px;
+}
+.pic1 li:nth-child(4){
+	background: url(../img/denglu/bg.png) no-repeat -78px -82px;
+}
+.pic1 li:nth-child(4):hover{
+	background: url(../img/denglu/bg.png) no-repeat -78px -121px;
+}
+.pic1 li:nth-child(5){
+	background: url(../img/denglu/bg.png) no-repeat -117px -82px;
+}
+.pic1 li:nth-child(5):hover{
+	background: url(../img/denglu/bg.png) no-repeat -117px -121px;
+}
+
+footer{
+	width:100%;
+	height:105px;
+	border-top:1px solid #dcdcdc;
+	margin-top:49px;
+}
+footer div{
+	width:990px;
+	margin:10px auto 0;
+	color:#666666;
+	font-size: 12px;
+}
+footer ul{
+	float:left;
+}
+footer ul li{
+	float:left;
+}
+footer p{
+	float:right;
+}
+footer ul li:nth-child(2),footer ul li:nth-child(4){
+	padding:0 10px;
+}
+.non{
+	display: none;
+}
+.non p{
+	height:45px;
+	line-height: 45px;
+	font-size: 12px;
+	color:#333333;
+	text-align: right;
+}
+
