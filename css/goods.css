@@ -608,3 +608,277 @@ section .left{
 .abs li:hover{
 	border:1px solid red;
 }
+
+.title1{
+	width:197px;
+	height:30px;
+	line-height: 30px;
+	border:1px solid #ededed;
+	font-size:13px;
+}
+.title1 a{
+	margin-left:60px;
+}
+.right img{
+	width:135px;
+	height:150px;
+}
+.right ul{
+	padding:8px 14px;
+}
+.right a{
+	font-size: 12px;
+	color:#333333;
+}
+.right a:hover{
+	color:red;
+}
+.right ul li:nth-child(2){
+	margin:10px 0;
+}
+.right span{
+	font-size: 16px;
+	color:red;
+}
+.right s{
+	font-size: 14px;
+	color:#999999;
+	margin-left:20px;
+}
+article{
+	width:1200px;
+	height:270px;
+	margin:0 auto;
+	padding:25px;
+	border:1px solid #ededed;
+}
+.tuijian{
+	width:1200px;
+	margin:0 auto;
+	height:30px;
+	line-height: 30px;
+	font-size: 14px;
+	text-align: left;
+	border:1px solid #ededed;
+}
+article ul{
+	float:left;
+	margin-right:18px;
+	text-align: left;
+}
+.jiahao{
+	margin-top:68px;
+}
+article a{
+	display: inline-block;
+	width:155px;
+	margin:10px 0;
+}
+article a:hover{
+	color:red;
+}
+article span{
+	color:red;
+	font-size:16px;
+	font-weight: bold;
+}
+article input{
+	width:12px;
+	height:12px;
+	border:1px solid #707070;
+}
+.button1{
+	padding-top:37px;
+}
+.button1 i{
+	color:red;
+	font-size: 14px;
+	margin:0 5px;
+}
+.button1 li{
+	height:20px;
+	line-height: 20px;
+}
+.button1 button{
+	background: red;
+	color:white;
+	width:74px;
+	height:28px;
+	margin-top:13px;
+}
+main{
+	width:1200px;
+	margin:20px auto 0;
+	height:3380px;
+	overflow: hidden;
+}
+.main-left{
+	width:197px;
+	float:left;
+	border:1px solid #ededed;
+	margin-right:10px;
+}
+.main-right{
+	float: left;
+	padding-top:20px;
+}
+.main-left img{
+	width:135px;
+	height:150px;
+}
+.main-left ul{
+	padding:8px 14px;
+}
+.main-left a{
+	font-size: 12px;
+	color:#333333;
+}
+.main-left a:hover{
+	color:red;
+}
+.main-left ul li:nth-child(2){
+	margin:10px 0;
+}
+.main-left span{
+	font-size: 16px;
+	color:red;
+}
+.main-left s{
+	font-size: 14px;
+	color:#999999;
+	margin-left:20px;
+}
+.main-right ul li{
+	float:left;
+	border:1px solid #ededed;
+	padding:7px 15px;
+	font-size:14px;
+	color:black;
+	cursor: pointer;
+}
+.main-right ul li:hover{
+	color:red;
+}
+.ma{
+	width:100px;
+	height:36px;
+	background: url(../img/good/555.jpg) no-repeat;
+	position: relative;
+}
+.maimg{
+	display: none;
+	position: absolute;
+	left:0;
+	top:35px;
+}
+.ma:hover .maimg{
+	display: block;
+}
+.ma:hover{
+	background: url(../img/good/556.jpg) no-repeat;
+}
+
+footer{
+	width:1200px;
+	height:240px;
+	margin:0 auto;
+	border-top:1px solid #d9d9d9;
+	padding-top:28px;
+}
+footer ul{
+	float:left;
+	text-align: left;
+	width:175px;
+}
+#i92{
+	margin-bottom: 10px;
+	height:92px;
+}
+#i92 img{
+	width:92px;
+	height:92px;
+}
+footer ul li:nth-child(1){
+	font-size: 14px;
+	color:#333333;
+	font-weight: bold;
+}
+footer ul li{
+	height:30px;
+}
+.main1{
+	width:100%;
+	background: #2d2d2d;
+	
+}
+.main2{
+	width:1200px;
+	height:230px;
+	margin:0 auto;
+	
+}
+.main2 ul{
+	color:#999999;
+	height:45px;
+	line-height: 45px;
+	padding-top:45px;
+}
+.main2 ul li{
+	float:left;
+	height:45px;
+	line-height: 45px;
+}
+.main2 ul:nth-child(1) a{
+	color:white;
+}
+.main2 ul:nth-child(2) a{
+	color:#999999;
+}
+.main2 ul .pad{
+	padding:0 14px;
+}
+.canshu{
+	display: none;
+}
+#xiding[data-fixed="fixed"]{
+	position: fixed;
+	top:0;
+	left: 0;
+	margin: 0;
+}
+#xiding{
+	background: white;
+}
+.gotop{
+	cursor: pointer;
+	font-size: 22px;
+	opacity: .6;
+	position: fixed;
+	right:50px;
+	bottom: 50px;
+	width:50px;
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+	background: red;
+	color:white;
+	display: none;
+}
+.gotop:hover{
+	opacity: 1;
+}
+#ask{
+	position: fixed;
+	right:10px;
+	top:200px;
+	z-index:1000;
+	cursor: pointer;
+}
+#ask li{
+	width:68px;
+	height:65px;
+	border:1px solid #ededed;
+}
+#ask li:hover{
+	background: red;
+}
